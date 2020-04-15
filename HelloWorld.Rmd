@@ -9,6 +9,27 @@ output: pdf_document
 
 ## This is a markdown file
 
+This is a "HelloWorld" text markdown file, part of Peer-graded Assignment: Assemble your toolbox.
+
 [DIRECT LINK](https://github.com/goran-bikic/datasciencecoursera.git) to "datasciencecoursera" repo.
 
 Also, [HERE](https://github.com/goran-bikic) you can find direct link to my Git Hub profile.
+
+# Practice (text)
+
+library(dataset)
+head(iris) 
+summary(iris) - descriptive statistics
+hist(iris$Sepal.Length) - basic histogram for Sepal.Lenght variable
+
+# Practice (code)
+
+```{r}
+summary(iris)
+
+```
+
+```{r}
+hist(iris$Sepal.Length)
+```
+
